@@ -1,0 +1,50 @@
+.navbar-container{
+    margin-top: 30px;
+}
+.navbar-branch{
+    background-color: white;
+    height: 60px;
+    padding: 0 60px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:2px solid red ;
+    border-left: 2px solid red;
+    clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+
+}
+.navbar-branch h1{
+    margin-right: 40px;
+}
+.navbar-menu-list{
+    border-top:2px solid red ;
+    border-left: 2px solid red;
+    clip-path: polygon(10% 0, 100% 0%, 100% 99%, 0% 100%);
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+    gap: 1.6rem;
+    background-color: white;
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-list ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+.navbar-icon button{
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    background-color: red;
+    transition: 0.3s ease-in-out;
+}
+.navbar-icon button:hover{
+    background-color: rgb(0, 89, 91);
+    cursor: pointer;
+}

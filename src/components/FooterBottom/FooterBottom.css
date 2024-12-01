@@ -1,0 +1,11 @@
+.footerbottom-container{
+    background-color: rgb(9, 0, 30);
+    padding: 20px 150px;
+}
+.footerbottom-content{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

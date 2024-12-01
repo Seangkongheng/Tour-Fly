@@ -1,0 +1,73 @@
+.choosing-container{
+    background-image: url('../../assets/transport.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.choosing-content{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 0 150px;
+}
+.choosing-content button{
+    padding: 10px 40px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.choosing-content button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.choosing-content h1{
+    color: white;
+    margin-top: 20px;
+}
+.specail-p{
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
+.choosing-list-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.choosing-item-icon{
+    width: 50px;
+    height: 59px;
+
+}
+.choosing-item-icon img{
+    width: 100%;
+}
+.choosing-item-content{
+    display: flex;
+    gap: 1rem;
+}
+.img-delivery{
+    width: 300px;
+    height: 300px;
+}
+.choosing-item-des{
+    width: 300px;
+}
+.choosing-item-des h4{
+    color: white;
+    font-size: 12px;
+}
+.choosing-item-des p{
+    color: gray;
+    font-size: 12px;
+}
+.img-delivery img{
+    width: 100%;
+}

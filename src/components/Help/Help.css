@@ -1,0 +1,61 @@
+.help-container{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+.help-content{
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.help-content-desc{
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    background-color: blueviolet;
+}
+.help-content-desc button{
+    padding: 10px 30px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-top: 30px;
+    transition: 0.3s ease-in-out;
+}
+.help-content-desc button:hover{
+    background-color: black;
+    cursor: pointer;
+
+}
+.help-contact-icon{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.help-contact-icon img{
+    width: 100%;
+}
+.help-content-desc h1{
+    color: white;
+}
+.help-contact{
+    margin-top: 20px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    align-content: center;
+}
+.help-contact-number p{
+    color: white;
+}
+.help-content-desc h1{
+    font-size: 20px;
+}
+.help-content-image{
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+}
+.help-content-image img{
+    width: 100%;
+}

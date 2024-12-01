@@ -1,0 +1,78 @@
+.news-container{
+    padding: 50px 150px;
+}
+.news-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.news-content button{
+    padding: 10px 30px ;
+    background-color: orangered;
+    border: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.news-card button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.news-content h1{
+    margin-top: 10px;
+}
+.news-content p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 11px;
+}
+.news-card-list{
+    margin-top: 30px;
+    display: flex;
+    gap: 1.5rem;
+}
+.news-card{
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 300px;
+    height: auto;
+}
+.new-card-image{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 165px;
+}
+.new-card-image img{
+    width: 100%;
+}
+.news-card-des h5{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.news-card-des{
+    padding: 10px 10px;
+}
+.news-card-des p{
+    font-size: 15px;
+    color: red;
+}
+.btn-readmore{
+    
+    margin-top: 30px;
+    border-top: 1px solid orangered;
+}
+.btn-readmore button{
+    padding: 10px 30px ;
+    background-color: orangered;
+    border: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.btn-readmore button:hover{
+    background-color: black;
+    cursor: pointer;
+}
